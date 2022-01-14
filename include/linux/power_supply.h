@@ -426,6 +426,8 @@ enum power_supply_property {
 #ifdef CONFIG_SOMC_CHARGER_EXTENSION
 	POWER_SUPPLY_PROP_CHARGER_TYPE,
 	POWER_SUPPLY_PROP_WIRELESS_STATUS,
+	POWER_SUPPLY_PROP_WIRELESS_THERMAL_V_LIMIT,
+	POWER_SUPPLY_PROP_AUTH,
 #endif
 	/*
 	 * Add local extensions for properties with string values between
