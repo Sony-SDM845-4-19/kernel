@@ -140,3 +140,6 @@ arch/arm64/boot/dts/vendor/
 
 # Tech package directories
 techpack/
+
+# Qualcomm CNSS WLAN Host Driver
+drivers/staging/wlan-qc/
