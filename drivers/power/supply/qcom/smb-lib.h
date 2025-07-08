@@ -574,6 +574,7 @@ struct smb_charger {
 	bool			int_cld;
 	int			faked_status;
 	bool			charger_type_determined;
+#endif
 };
 
 int smblib_read(struct smb_charger *chg, u16 addr, u8 *val);
