@@ -684,6 +684,9 @@
 
 &pmi8998_charger {
 	qcom,otg-cl-ua = <1000000>;
+	qcom,smb2-vbus {
+		regulator-name = "smb2-vbus";
+	};
 };
 
 &pmi8998_wled {
